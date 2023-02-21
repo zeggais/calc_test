@@ -1,0 +1,18 @@
+.component-button-panel {
+    background-color: black;
+}
+
+.component-button-panel > div {
+    display: flex;
+}
+
+Button {
+    width: 5em;
+    height: 5em;
+}
+
+Button[name="0"] {
+    background-color: blue;
+    width: 10em;
+    height: 5em;
+}
